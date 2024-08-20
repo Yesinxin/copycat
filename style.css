@@ -135,6 +135,7 @@ body {
 }
 section{
     width: 100%;
+    padding: 3rem 0;
 }
 .section .text{
     text-align: center;
@@ -144,8 +145,9 @@ section{
     line-height: 2.5;
 }
 .section .text h1{
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2.0;
+    margin: 1rem 0;
     
 }
 .section .text p{
@@ -155,6 +157,8 @@ section{
     width: 100%;
     height: 100vh;
     position: relative;
+    box-sizing: content-box;
+    overflow: hidden;
 }
 .main2 .bg{
     width: 100%;
@@ -162,6 +166,7 @@ section{
     position: absolute;
     top: 0;
     left: 0;
+    
 }
 .main2 .body{
     width: 100%;
@@ -234,3 +239,186 @@ section{
     z-index: 3
     ;
 }
+.main2 .text3{
+    width: 100%;
+    position: absolute;
+    right:0rem;    
+    top: 0rem;
+    z-index: 3
+    ;
+}
+.carousel span{
+    display: flex;
+    color: #A5A09B;
+}
+.photo4{
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    padding-bottom: 5rem;
+
+    
+}
+.photo4 img{
+    width: 35%;
+}
+.title5{
+    width: 100%;
+    position: relative;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+.title5 .body{
+    position: absolute;
+    top: 10%;
+    right: 18%;
+    z-index: 2
+}
+.title5 .somebody{
+    position: absolute;
+    top: 52%;
+    right: 25%;
+    z-index: 1
+}
+.title5 .foot{
+    position: absolute;
+    top: 28%;
+    right: 49%;
+    z-index: 0
+}
+.title5 .tree{
+    position: absolute;
+    top: 48%;
+    right: 4%;
+    z-index: 3
+}
+.title5 .eyes{
+    position: absolute;
+    top: 14%;
+    right: 30%;
+    z-index: 3
+}
+.title5 .mou{
+    position: absolute;
+    top: 18%;
+    right: 31%;    
+    z-index: 3
+}
+.title5 .green{
+    position: absolute;
+    top: 28%;
+    right: 27%;    
+    z-index: 3
+}
+.title5 .lotto{
+    position: absolute;  
+    top: 20%;
+    right: 47%;
+    z-index: 3
+}
+.title5 .rich{    
+    z-index: 3;
+    position: absolute;
+    top:38%;
+    right: 25%;
+}
+.title6{
+    display: flex;
+    margin: 0 auto;
+    width: 50%;}
+.title6 h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.text8{    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text8 img{width: 100%;}
+.text8 span{
+    color: #A5A09B;
+    font-size: 0.8rem;
+}
+.text9{width: 100%;}
+.text9 img{width: 49%;}
+.text10{
+    display: flex;
+    color: #A5A09B;
+    font-size: 0.8rem;}
+.text12{ width: 100%;
+    display: flex;
+justify-content: center;}
+.text12 img{width: 15%; margin: 0 1rem;}
+.text13{
+    width: 100%;
+    box-sizing: content-box;
+    overflow: hidden;
+    position: relative;
+ }
+ .text13 .body{
+    position: absolute;
+    top: 8.5%;
+    right:63%;
+    z-index: 2
+ }
+ .text13 .arm{
+    position: absolute;
+    top: 24%;
+    right: 75.95%;
+    z-index: 1
+ }
+ .text13 .arm1{
+    position: absolute;
+    top: 28%;
+    right: 50%;
+    z-index: 1
+ }
+ .text13 .hand17{
+    position: absolute;
+    top: 35%;    
+    right: 44.3%;
+    z-index: 3
+ }
+ .text13 .lotto1{
+    position: absolute;  
+    top: 20%;
+    right: 50%;
+    z-index: 3
+ } 
+ .text13 .sg{
+    position: absolute;
+    top: 25%;
+    right: 33%;
+    z-index: 3
+ }
+ .text13 .ing{
+    position: absolute;
+    top: 38%;
+    right: 30%;
+    z-index: 3
+ }
+ .text13 .ball11{
+    position: absolute;
+    top: 61%;
+    right: 12%;
+    z-index: 3  
+ }
+ .text13 .ball8{
+    position: absolute;
+    top: 74%;
+    right: 22%;
+    z-index: 3  
+ }
+ .text13 .eyes{
+    position: absolute;
+    top: 18%;
+    right: 64%;
+    z-index: 3
+ }
+ .text13 .mou{
+    position: absolute;
+    top: 23%;
+    right: 65.5%;    
+    z-index: 3
+ }
